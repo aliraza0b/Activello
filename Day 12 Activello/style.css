@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+.nav-bar{
+    width: 100%;
+    float: left;
+    padding: 22px 60px;
+   /* position: fixed;
+   z-index: 1; */
+    background-color: white;
+}
+.menu{
+    float: left;
+    width: 50%;
+}
+header nav a{
+    text-decoration: none;
+    color: black; 
+    margin-inline: 20px;
+    /* margin-left: 50px; */
+}
+.search{
+    float: right;
+    width: 17.5%;
+    margin: auto;
+}
+.search input{
+    padding: 6px 10px;
+    border: none;
+    float: left;
+}
+.ri-search-2-line{
+    background-color: rgba(175, 172, 172, 0.557);
+    font-size: 17px;
+    padding: 5px 10px;
+    float:left;
+}
+.container{
+    width: 92%;
+    margin: auto;
+}
+.container .row-1{
+    width: 100%;
+    margin: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 20px;
+}
+.container  .back-img{
+    background-image: url(./pics/beach-sunset-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:145px 0px ;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.container .row-2 h2{
+    text-align: center;
+    color: white;
+}
+.container .row-2  a{
+    text-decoration: none;
+    color: white;
+padding: 13px 0px;
+font-size: 22px;
+}
+.container .row-3{
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+.container .row-3 .col-1{
+    width: 61%;
+    float: left;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.container .row-3 .col-2{
+    width: 35%;
+    float: right;
+}
+.row-3 .col-1 .text{
+    padding: 40px 0px;
+}
+.col-2 .image{
+    width: 70%;
+}
+.col-2 .image img{
+width: 100%;
+display: block;
+}
+.col-1 .image{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col-1 .image img{
+width: 100%;
+display: block;
+}
+.row-3 .col-2 .text1{
+    padding-top: 40px;
+}
+.row-3 .col-2 {
+    margin-left: 1%;
+}
+.col-1 .image p{
+    padding-top: 20px;
+}
+.col-1 .image a{
+   text-decoration: none;
+   color: red;
+}
+.div-tempo1{
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+.tempoch1{
+    width: 45%;
+    margin: auto;
+float: left;
+}
+.tempoch2{
+    width: 45%;
+    margin: auto;
+float: right;
+}
+.div-tempo2{
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+.tempoch3{
+    width: 45%;
+    margin: auto;
+float: left;
+}
+.tempoch4{
+    width: 45%;
+    margin: auto;
+float: right;
+}
+.col-2 .divtxt h3{
+    padding: 20px 0px;
+}
+.col-2 .text{
+    word-wrap: break-word;
+width: 90%;
+}
+.col-2.div-icon{
+    font-size: 25px;
+}
+.div-icon a{
+text-decoration: none;
+color: rgb(77, 65, 202);
+margin-inline: 5px;
+}
+/* .div-icon a i{
+    padding-top:50px;
+} */
+.col-2 .divtxt{
+    padding: 30px 0px;
+}
+.col-2 .divtxtt h3{
+    font-size: 25px;
+   padding-bottom:  30px ;
+   display: block;
+}
+.div-imagee{
+    width: 100%;
+    float: left;
+    margin: auto;
+    margin-block: 15px;
+}
+.div-imagee h6{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.div-imagee img{
+    width: 40%;
+    /* display: block; */
+}
+.divtaxt{
+    width: 100%;
+    float: left;
+}
+.divtxttt{
+    width: 100%;
+    float: left;
+}
+.divtxtttt{
+    width: 100%;
+    float: left;
+}
+.input-search{
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.input-search input{
+    padding: 6px 10px;
+    float: left;
+    border: 2px solid black;
+}
+.ri-search-line{
+    background-color: rgba(175, 172, 172, 0.557);
+    font-size: 17px;
+    padding: 5px 10px;
+    float:left;
+    margin-inline: 7px;
+}
+ .table{
+    width: 100%;
+    float: left;
+ }
+table{
+    width: 40%;
+}
+td{
+    line-height: 28px;
+}
+.divttxtt{
+width: 100%;
+float: left;
+}
+.divttxtt h4{
+    padding: 20px 0px;
+}
+footer .foot{
+    width: 100%;
+    margin: auto;
+    float: left;
+    background-color: rgba(135, 133, 133, 0.663);
+    color: black;
+    padding: 40px 0px;
+}
+.foot-icon {
+    font-size: 23px;
+    width: 13%;
+    margin: auto;
+}
+.foot-icon a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 5px;
+}
+.foot-text{
+    text-align: center;
+    margin-top: 12px;
+}
